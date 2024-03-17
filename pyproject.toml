@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pyweb-hw2"
+version = "0.1.0"
+description = ""
+authors = ["UreshiiSushi <merieru@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.4"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
